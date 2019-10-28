@@ -1,5 +1,5 @@
 .header{
-    background-color: #6699ff;
+    background-color: black;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     width:100%;
@@ -18,13 +18,13 @@ input{
     font-size:2em;
 }
 .search{
-    background-color: black;
+    background-color: grey;
     font-size: 2em;
     color: white;
     text-decoration: none;
     margin-top:50px;
     float:left;
-    border:3px solid black;
+    border:3px solid grey;
 }
 body{
     margin: 0 auto;
@@ -38,7 +38,7 @@ ul{
     margin-left:455px;
     margin-top:150px;
 }
-li{
+.navigation li{
     display:inline;
     padding:16px;
     font-size: 15pt;
@@ -66,4 +66,7 @@ img{
     margin:0 auto;
     max-width:90%;
     overflow: hidden;
+}
+a:hover{
+    opacity: 0.5;
 }
