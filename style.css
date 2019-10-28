@@ -69,4 +69,18 @@ img{
 }
 a:hover{
     opacity: 0.5;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.aboutUs{
+    width:80%;
+    margin: 0 auto;
+    font-size:1.3em;
+
 }
